@@ -18,8 +18,8 @@
         this._defaults = defaults;
         this._name     = pluginName;
 
-        this._numberContainer  = $(this.element).find('#gfy-ntfy-number');
-        this._contentContainer = $(this.element).find('#gfy-ntfy-content');
+        this._numberContainer  = $(this.element).find('#js-gfy-ntfy-number');
+        this._contentContainer = $(this.element).find('#js-gfy-ntfy-content');
         this.init();
         
         this.displayNumber();
@@ -57,7 +57,7 @@
         			    
         			});
         		} else {
-        			self._contentContainer.popover('destroy')
+        			self._contentContainer.popover('destroy');
         			self.popoverClicked = false;
         		}
         		

@@ -2,27 +2,24 @@
 
 .gfy-ntfy {
 	display: block;
-	background-image: url(../images/icon_bell.png);
-	background-position: left;
-	background-repeat: no-repeat;
-	width:34px;
+	background: url(../images/icon_bell.png) no-repeat left;
+	width: 34px;
 	height: 34px;
 	position: relative;
 	float: left;
 }
 
-#gfy-ntfy-number {
-	font-size: xx-small;
-	border-radius: 9px;
-   padding: 0 5px;
-   position: absolute;
-   bottom: 0px;
-   right: 0px;
-   
+.gfy-ntfy-number {
+    font-size: xx-small;
+	 border-radius: 9px;
+    padding: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
-#gfy-ntfy-content {
-  position: absolute;
+.gfy-ntfy-content {
+   position: absolute;
 	bottom: 0px;
 	left: 50%;
 }
@@ -32,24 +29,11 @@
 }
 
 .gfy-note-tiny a {
-	display: block !important;
-	font-size: x-small !important;
-	text-decoration: none !important;
+	display: block;
+	font-size: x-small;
+	text-decoration: none;
 }
 
 .gfy-note-tiny:hover {
 	background-color: #f5f5f5;
-}
-
-.gfy-notification {
-	border-bottom: thin solid #eaeaea;
-}
-
-.gfy-notification-view .gfy-notification, .gfy-notifications .gfy-notification  {
-	padding: 10px;
-	font-size: medium;
-}
-
-.gfy-note-notread {
-	background: #fffaf0;
 }
